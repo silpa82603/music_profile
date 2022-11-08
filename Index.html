@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Music</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./Style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <section id="container">
+        <ul class="nav">
+            <li><a class="highlight" href="#">Home</a></li>
+            <li><a class="highlight" href="#">Playlist</a></li>
+            <li><a class="highlight" href="#">Download</a></li>
+            <li><a class="highlight" href="#">Favorite</a></li>
+        </ul>
+        <div class="main_div">
+            <div class="div_left">
+                <h3 class="h1_class">Welcome To Music World</h3>
+                <img src="./music2.jpg" class="img_css" />
+            </div>
+            <div class="div_right">
+                <div class="music_icon">
+                    <h4>Click Here To Listen<br />
+                        <button class="button" onclick="playpause()">Play &#9654;</button>
+                    </h4>
+
+                    <img src="./musicgif.jpg" class="img_gif" />
+                </div>
+            </div>
+        </div>
+        <audio id="mysound">
+            <source src="../../../Downloads/02. Pehla Nasha.mp3" type="audio/mp3">
+        </audio>
+    </section>
+
+    <script src="./Js/index.js"></script>
+</body>
+
+</html>
